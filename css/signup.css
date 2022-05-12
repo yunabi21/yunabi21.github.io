@@ -15,9 +15,9 @@ body {
   align-items: center;
 }
 
-.reg-container {
+.signup-container {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 30rem;
@@ -46,11 +46,11 @@ span {
   font-size: 0.75rem;
 }
 
-.id-form, .pw-form, .pw-check-form, .name-form, .email-form {
+.id-form, .pw-form, .pw-check-form, .name-form, .email-form, .phone-form {
   margin-bottom: 40px;
 }
 
-#inputId, #inputPw, #inputPwCheck, #inputName, #inputEmail {
+#inputId, #inputPw, #inputPwCheck, #inputName, #inputEmail, #inputPhone {
   margin-bottom: 5px;
 }
 
