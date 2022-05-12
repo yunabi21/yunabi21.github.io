@@ -114,7 +114,7 @@ const mobileCheck = (check) => {
   return check;
 }
 
-const signin = () => {
+const signup = () => {
   const input_id = document.getElementById("input-id").value;
   const result_id = document.getElementById("id-result");
 
@@ -189,13 +189,13 @@ const signin = () => {
   }
 }
 
-const signinOver = () => {
+const signupOver = () => {
   const button = document.getElementById("submit-button");
   button.style.backgroundColor = "#a8a3a7"
   button.style.color = "#222222";
 }
 
-const signinLeave = () => {
+const signupLeave = () => {
   const button = document.getElementById("submit-button");
   button.style.backgroundColor = "#212529";
   button.style.color = "#ffffff";
