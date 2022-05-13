@@ -188,15 +188,3 @@ const signup = () => {
     alert("입력란을 다시 확인해주세요.");
   }
 }
-
-const signupOver = () => {
-  const button = document.getElementById("submit-button");
-  button.style.backgroundColor = "#a8a3a7"
-  button.style.color = "#222222";
-}
-
-const signupLeave = () => {
-  const button = document.getElementById("submit-button");
-  button.style.backgroundColor = "#212529";
-  button.style.color = "#ffffff";
-}

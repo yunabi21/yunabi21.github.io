@@ -24,15 +24,3 @@ const signin = () => {
     error_msg.setAttribute("aria-hidden", true);
   }
 }
-
-const signinOver = () => {
-  const button = document.getElementById("submit-button");
-  button.style.backgroundColor = "#a8a3a7"
-  button.style.color = "#222222";
-}
-
-const signinLeave = () => {
-  const button = document.getElementById("submit-button");
-  button.style.backgroundColor = "#212529";
-  button.style.color = "#ffffff";
-}
