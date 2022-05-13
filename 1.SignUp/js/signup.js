@@ -44,14 +44,20 @@ const pwCheckAgain = (check) => {
   if (check_pw == input_pw) {
     if (input_pw == '') {
       result_check_pw.innerHTML = "비밀번호를 입력하세요.";
+      result_check_pw.style.color = "#aa3636";
+      result_check_pw.style.display = "block";
+      result_check_pw.setAttribute("aria-hidden", false);
       check = false;
+    } else {
+      result_check_pw.innerHTML = "비밀번호가 일치합니다.";
+      result_check_pw.style.color = "#36aa36";
+      check = true;
     }
-    result_check_pw.innerHTML = "비밀번호가 일치합니다.";
-    result_check_pw.style.color = "#36aa36";
-    check = true;
   } else {
     result_check_pw.innerHTML = "비밀번호가 일치하지 않습니다.";
     result_check_pw.style.color = "#aa3636";
+    result_check_pw.style.display = "block";
+    result_check_pw.setAttribute("aria-hidden", false);
     check = false;
   }
   return check;

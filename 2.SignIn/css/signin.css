@@ -46,7 +46,7 @@ body {
   border-collapse: collapse;
 }
 
-#floatingPassword {
+#inputId, #inputPw {
   margin-bottom: 20px;
 }
 
