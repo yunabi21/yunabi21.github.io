@@ -56,8 +56,18 @@ label {
   width: 65% !important;
 }
 
+.col-3 {
+  width: 60% !important;
+}
+
 #auth-mobile {
   margin-left: 14px;
+}
+
+#id-check {
+  margin-left: 14px;
+  margin-right: 0px !important;
+  width: 100%;
 }
 
 .mobile-wrap {
