@@ -57,6 +57,8 @@ h3 {font-size: 26px; font-weight: 400; letter-spacing: -1px;}
 /* main */
 main {position: relative; margin-bottom: 250px; background-color: #fff; z-index: 100;}
 .skills {background-color: #f0f0f0;}
+.skills .intro_h2::after {position: absolute; top: 50%; left: 274px; right: 0; content: ''; height: 2px; background-color: #a69eb0; transform: translateY(-50%);}
+.skills p {font-size: 16px; line-height: 32px;}
 .skills .skill_list {display: flex; justify-content: center; padding-bottom: 80px;}
 .skills .skill_list > li {width: 25%; color: #766d81; font-size: 26px; letter-spacing: -1px;}
 .skills .skill_list > li + li {margin-left: 15px;}
